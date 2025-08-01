@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
-from src.feature_engineering import generate_features
-from src.model import predict_multibaggers
+from feature_engineering import generate_features
+from model import predict_multibaggers
 
 st.set_page_config(page_title="Multibagger AI - Penny Stock Predictor", layout="wide")
 
